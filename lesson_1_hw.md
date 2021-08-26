@@ -13,4 +13,8 @@ The basic Python variable/data types are:
   - Dictionaries
   - Sets
 
-  
+## What are the four computational thinking skills?
+1 - Decomposition - breaking down the problem into smaller problems.
+2 - Pattern recognition - relating the problem to previously solved similar problems.
+3 - Abstraction - focusing only on the important parts of the problem.
+4 - Algorithmic thinking - creating a set of procedures required (that anyone/computers can use) to solve the problem.
