@@ -1,7 +1,7 @@
 # Snakify chapter 3 exercises
 
 ## 1. Minimum of two numbers
-<img src="images/minimum.png" width="100">
+<img src="images/minimum.png" width=50%>
 
 ```.py
 a = float(input())
