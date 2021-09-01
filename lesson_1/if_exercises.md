@@ -2,6 +2,7 @@
 
 ## 1. Minimum of two numbers
 <img src="images/minimum.ong" width="30%">
+
 ```.py
 a = int(input())
 b = int(input())
