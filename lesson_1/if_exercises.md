@@ -4,8 +4,8 @@
 <img src="images/minimum.png" width=30%>
 
 ```.py
-a = float(input())
-b = float(input())
+a = int(input())
+b = int(input())
 if a < b:
     print(a)
 else:
