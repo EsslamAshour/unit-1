@@ -1,7 +1,6 @@
 # Snakify chapter 3 exercises
 
 ## 1. Minimum of two numbers
-<img src="images/minimum.png" width=32%>
 
 ```.py
 a = int(input())
