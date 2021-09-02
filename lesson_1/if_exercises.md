@@ -39,7 +39,7 @@ else:
 ```
 
 ## 4. Equal numbers
-<img src="images/equal_nums.png" width="30%">
+<img src="images/equal_numbers.png" width="30%">
 ```py
 a = int(input())
 b = int(input())
