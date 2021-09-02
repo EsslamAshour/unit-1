@@ -57,6 +57,7 @@ else:
 
 # 5. Rook move
 <img src="images/rook_move.png" width="30%">
+
 ```.py
 c1 = int(input())
 r1 = int(input())
