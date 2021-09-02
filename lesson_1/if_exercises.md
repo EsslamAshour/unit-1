@@ -14,6 +14,7 @@ else:
 
 ## 2. Sign function
 <img src="images/sign_func.png" width="30%">
+
 ```.py
 x = int(input())
 if x > 0:
@@ -26,6 +27,7 @@ else:
 
 ## 3. Minimum of three numbers
 <img src="images/minimum_of_three.png" width="30%">
+
 ```.py
 a = int(input())
 b = int(input())
@@ -40,7 +42,8 @@ else:
 
 ## 4. Equal numbers
 <img src="images/equal_numbers.png" width="30%">
-```py
+
+```.py
 a = int(input())
 b = int(input())
 c = int(input())
