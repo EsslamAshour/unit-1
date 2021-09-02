@@ -55,3 +55,15 @@ else:
     print(0)
 ```
 
+# 5. Rook move
+<img src="images/rook_move.png" width="30%">
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+if y1 != y2 and x1 != x2:
+    print("NO")
+else:
+    print("YES")
+```
