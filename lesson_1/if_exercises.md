@@ -68,3 +68,47 @@ if y1 != y2 and x1 != x2:
 else:
     print("YES")
 ```
+
+# 6. Chess board - same color
+<img src="images/chess_board.png" width="30%">
+
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+
+if (c1 + c2) % 2 == (r1 + r2) % 2:
+    print("YES")
+else:
+    print("NO")
+```
+
+# 7. King move 
+<img src="images/king_move.png" width="30%">
+
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+
+if abs(c1-c2) <= 1 and abs(r1-r2) <= 1:
+    print("YES")
+else:
+    print("NO")
+```
+
+# 8. Bishop move
+<img src="images/bishop_move.png" width="30%">
+
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+if abs(c1-c2) == abs(r1-r2):
+    print("YES")
+else:
+    print("NO")
+```
