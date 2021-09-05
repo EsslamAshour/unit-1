@@ -1,7 +1,7 @@
 # Snakify chapter 3 exercises
 
 ## 1. Minimum of two numbers
-<img src="images/minimum_of_two.png" width="30%">
+<img src="images/minimum_of_two.png" width="40%">
 
 ```.py
 a = int(input())
@@ -13,7 +13,7 @@ else:
 ```
 
 ## 2. Sign function
-<img src="images/sign_func.png" width="30%">
+<img src="images/sign_func.png" width="40%">
 
 ```.py
 x = int(input())
@@ -26,7 +26,7 @@ else:
 ```
 
 ## 3. Minimum of three numbers
-<img src="images/minimum_of_three.png" width="30%">
+<img src="images/minimum_of_three.png" width="40%">
 
 ```.py
 a = int(input())
@@ -41,7 +41,7 @@ else:
 ```
 
 ## 4. Equal numbers
-<img src="images/equal_numbers.png" width="30%">
+<img src="images/equal_numbers.png" width="40%">
 
 ```.py
 a = int(input())
@@ -56,7 +56,7 @@ else:
 ```
 
 # 5. Rook move
-<img src="images/rook_move.png" width="30%">
+<img src="images/rook_move.png" width="40%">
 
 ```.py
 c1 = int(input())
@@ -70,7 +70,7 @@ else:
 ```
 
 # 6. Chess board - same color
-<img src="images/chess_board.png" width="30%">
+<img src="images/chess_board.png" width="40%">
 
 ```.py
 c1 = int(input())
@@ -84,7 +84,7 @@ else:
 ```
 
 # 7. King move 
-<img src="images/king_move.png" width="30%">
+<img src="images/king_move.png" width="40%">
 
 ```.py
 c1 = int(input())
@@ -98,7 +98,7 @@ else:
 ```
 
 # 8. Bishop move
-<img src="images/bishop_move.png" width="30%">
+<img src="images/bishop_move.png" width="40%">
 
 ```.py
 c1 = int(input())
@@ -112,7 +112,7 @@ else:
 ```
 
 # 9. Queen move
-<img src="images/queen_move.png" width="30%">
+<img src="images/queen_move.png" width="40%">
 
 ```.py
 c1 = int(input())
@@ -126,7 +126,7 @@ else:
 ```
 
 # 10. Knight move
-<img src="images/knight_move.png" width="30%">
+<img src="images/knight_move.png" width="40%">
 
 ```.py
 c1 = int(input())
@@ -140,13 +140,13 @@ else:
 ```
 
 # 11. Chocolate bar 
-<img src="choco_bar.png" width="30%">
+<img src="images/choco_bar.png" width="40%">
 
 ```.py
 ```
 
 # 12. Leap year
-<img src="leap_year.png" width="30%">
+<img src="images/leap_year.png" width="40%">
 
 ```.py
 year = int(input())
