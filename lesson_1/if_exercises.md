@@ -112,3 +112,48 @@ if abs(c1-c2) == abs(r1-r2):
 else:
     print("NO")
 ```
+
+# 9. Queen move
+<img src="images/queen_move.png" width="30%">
+
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+if abs(c1-c2) == abs(r1-r2) or c1 == c2 or r1 == r2:
+    print("YES")
+else:
+    print("NO")
+```
+
+# 10. Knight move
+<img src="images/knight_move.png" width="30%">
+
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+if abs(c1-c2) + abs(r1-r2) == 3 and c1-c2 != 0 and r1-r2 != 0:
+    print("YES")
+else:
+    print("NO")
+```
+
+# 11. Chocolate bar 
+<img src="choco_bar.png" width="30%">
+
+```.py
+```
+
+# 12. Leap year
+<img src="leap_year.png" width="30%">
+
+```.py
+year = int(input())
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    print("LEAP")
+else:
+    print("COMMON")
+```
