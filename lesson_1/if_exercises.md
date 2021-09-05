@@ -140,6 +140,7 @@ else:
 ```
 
 # 11. Chocolate bar 
+The number of squares (k) has to be a multiple of n (number of columns) or m (number of rows) so we can count multiple rows or columns until their number of squares reaches k.
 <img src="images/choco_bar.png" width="40%">
 
 ```.py
