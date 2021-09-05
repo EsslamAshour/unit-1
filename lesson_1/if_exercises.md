@@ -143,6 +143,13 @@ else:
 <img src="images/choco_bar.png" width="40%">
 
 ```.py
+n = int(input())
+m = int(input())
+k = int(input())
+if (k % m == 0 or k % n == 0) and k < n*m:
+    print("YES")
+else:
+    print("NO")
 ```
 
 # 12. Leap year
