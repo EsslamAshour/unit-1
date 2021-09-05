@@ -140,10 +140,12 @@ else:
 ```
 
 # 11. Chocolate bar 
-The number of squares (k) has to be a multiple of n (number of columns) or m (number of rows) so we can count multiple rows or columns until their number of squares reaches k.
 <img src="images/choco_bar.png" width="40%">
 
 ```.py
+# The number of squares (k) has to be a multiple of n (columns) or m (rows)
+# so we can count multiple rows or columns until their number of squares reaches k.
+# Also k has to be smaller than the area of the bar otherwise it can't fit in a split part of it.
 n = int(input())
 m = int(input())
 k = int(input())
