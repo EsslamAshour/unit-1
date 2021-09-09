@@ -65,7 +65,7 @@ print(sum)
 ```
 
 # 6. Factorial
-<img src="factorial.png" width="30%">
+<img src="images/factorial.png" width="30%">
 
 ```.py
 # Given n calculate and print n! (n factorial)
@@ -77,7 +77,7 @@ print(n_fact)
 ```
 
 # 7. The number of zeros
-<img src="num_of_zeros.png" width="30%">
+<img src="images/num_of_zeros.png" width="30%">
 
 ```.py
 # Given n numbers: the first number in the input is n, after that n integers are given, count the number of zeros
@@ -92,7 +92,7 @@ print(zero_count)
 ```
 
 # 8. Adding factorials
-<img src="adding_factorials.png" width="30%">
+<img src="images/adding_factorials.png" width="30%">
 
 ```.py
 # Given n, calculate and print 1! + 2! + ... + n!
@@ -106,7 +106,7 @@ print(factorial_sum)
 ```
 
 # 9. Ladder
-<img src="ladder.png" width="30%">
+<img src="images/ladder.png" width="30%">
 
 ```.py
 # for given integer n ≤ 9 print a ladder of n steps
@@ -119,7 +119,7 @@ for i in range(1, n+1):
 ```
 
 # 10. Lost card
-<img src="lost_card.png" width="30%">
+<img src="images/lost_card.png" width="30%">
 
 ```.py
 
