@@ -1,7 +1,7 @@
 # Snakify chapter 4 exercises - for loop
 
 # 1. Series - 1 
-<img src="images/series_1.png" width="40%">
+<img src="images/series_1.png" width="30%">
 
 ```.py
 # Print all integers from a to b inclusively given a <= b
@@ -12,7 +12,7 @@ for num in range(a, b+1):
 ```
 
 # 2. Series - 2
-<img src="images/series_2.png" width="40%">
+<img src="images/series_2.png" width="30%">
 
 ```.py
 # Print all integers from a to b inclusively, in ascending order if a < b
@@ -28,7 +28,7 @@ else:
 ```
 
 # 3. Sum of 10 numbers
-<img src="images/sum_of_ten.png" width="40%">
+<img src="images/sum_of_ten.png" width="30%">
 
 ```.py
 # Print the sum of 10 integers given from user
@@ -40,7 +40,7 @@ print(sum)
 ```
 
 # 4. Sum of N numbers
-<img src="images/sum_of_n.png" width="40%">
+<img src="images/sum_of_n.png" width="30%">
 
 ```.py
 # Print sum of n integers, n and the integers are given from user
@@ -53,7 +53,7 @@ print(sum)
 ```
 
 # 5. Sum of cubes
-<img src="images/sum_of_cubes.png" width="40%">
+<img src="images/sum_of_cubes.png" width="30%">
 
 ```.py
 # Given n calculate and print 1**3 + 2**3 + ... + n**3
@@ -65,7 +65,7 @@ print(sum)
 ```
 
 # 6. Factorial
-<img src="factorial.png" width="40%">
+<img src="factorial.png" width="30%">
 
 ```.py
 # Given n calculate and print n! (n factorial)
@@ -77,7 +77,7 @@ print(n_fact)
 ```
 
 # 7. The number of zeros
-<img src="num_of_zeros.png" width="40%">
+<img src="num_of_zeros.png" width="30%">
 
 ```.py
 # Given n numbers: the first number in the input is n, after that n integers are given, count the number of zeros
@@ -92,7 +92,7 @@ print(zero_count)
 ```
 
 # 8. Adding factorials
-<img src="adding_factorials.png" width="40%">
+<img src="adding_factorials.png" width="30%">
 
 ```.py
 # Given n, calculate and print 1! + 2! + ... + n!
@@ -106,7 +106,7 @@ print(factorial_sum)
 ```
 
 # 9. Ladder
-<img src="ladder.png" width="40%">
+<img src="ladder.png" width="30%">
 
 ```.py
 # for given integer n ≤ 9 print a ladder of n steps
@@ -119,7 +119,7 @@ for i in range(1, n+1):
 ```
 
 # 10. Lost card
-<img src="lost_card.png" width="40%">
+<img src="lost_card.png" width="30%">
 
 ```.py
 
