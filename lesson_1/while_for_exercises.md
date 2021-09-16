@@ -1,5 +1,6 @@
 # 1. List of squares
 <img src="images/list_of_sqrs.png" width="40%">
+
 ```.py
 # While loop
 # For given integer n print all squares of integers where the square is less than or equal to n, in ascending order.
