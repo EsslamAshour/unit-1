@@ -76,28 +76,26 @@ As a future athlete you just started your practice for an upcoming event. Given 
 <img src="images/morning_jog.png" width="40%">
 
 ```.py
-n = int(input())
-exp = 1
-res = 2
-while res <= n:
-    exp += 1
-    res *= 2
-print(exp-1)
-print(res/2)
+x = int(input("Input x: "))
+y = int(input("Input y: "))
+days = 1
+while x < y:
+    x += 0.10 * x
+    days += 1
+print(days)
 ```
 ```.py
-n = int(input("Input n: "))
-exp = 1
-res = 2
-# No choice but to use a very large number
-for i in range(1, 10000):
-    if res > n:
+x = int(input())
+y = int(input())
+days = 1
+# There's nothing we can do here other than use a very large number
+for i in range(20000):
+    if x >= y:
         break
     else:
-        res *= 2
-        exp += 1
-print(exp-1)
-print(res/2)
+        x += 0.10 * x
+        days += 1
+print(days)
 ```
 
 # 5. The length of a sequence 
@@ -123,7 +121,7 @@ for i in range(10000):
 print(length)
 ```
 
-# 5. The sum of a sequence
+# 6. The sum of a sequence
 Determine the sum of all elements in the sequence, ending with the number 0. 
 <img src="images/seq_sum.png" width="40%">
 
@@ -136,9 +134,148 @@ while num != 0:
 print(sum)
 ```
 ```.py
-
+sum = 0
+for i in range(10000):
+    num = int(input())
+    if num == 0:
+        break
+    else:
+        sum += num
+print(sum)
 ```
 
-# 6. The average of a sequence
+# 7. The average of a sequence
 Determine the average of all elements of the sequence ending with the number 0. 
 <img src="images/seq_avg.png" width="40%">
+
+```.py
+num = -1
+sum = 0
+count = -1
+while num != 0:
+    num = int(input("Input number: "))
+    sum += num
+    count += 1
+print(sum/count)
+```
+```.py
+sum = 0
+count = 0
+for i in range(10000):
+    num = int(input("Input number: "))
+    if num == 0:
+        break
+    else:
+        sum += num
+        count += 1
+print(sum/count)
+```
+
+# 8. The maximum of the sequence
+<img src="images/seq_max.png" width="40%">
+
+```.py
+num = -1
+max = 0
+while num != 0:
+    num = int(input("Input number: "))
+    if num > max:
+        max = num
+print(max)
+```
+```.py
+max = 0
+for i in range(10000):
+    num = int(input("Input number: "))
+    if num == 0:
+        break
+    else:
+        if num > max:
+            max = num
+print(max)
+```
+
+# 9. The index of the maximum of a sequence
+<img src="images/seq_max_idx.png" width="40%">
+
+```.py
+num = -1
+max = 0
+max_idx = 0
+current_idx = 0
+while num != 0:
+    num = int(input("Input number: "))
+    current_idx += 1
+    if num > max:
+        max = num
+        max_idx = current_idx
+print(max_idx)
+```
+```.py
+max = 0
+max_idx = 0
+current_idx = 0
+for i in range(10000):
+    num = int(input("Input number: "))
+    if num == 0:
+        break
+    else:
+        current_idx += 1
+        if num > max:
+            max = num
+            max_idx = current_idx
+print(max_idx)
+```
+
+# 10. The number of even numbers in a sequence
+<img src="images/seq_even_n.png" width="40%">
+
+```.py
+num = -1
+even_count = -1
+while num != 0:
+    num = int(input("Input number: "))
+    if num % 2 == 0:
+        even_count += 1
+print(even_count)
+```
+```.py
+even_count = 0
+for i in range(10000):
+    num = int(input())
+    if num == 0:
+        break
+    else:
+        if num % 2 == 0:
+            even_count += 1
+print(even_count)
+```
+
+# 11. The number of elements that are greater than the previous one
+<img src="images/greater_than_prev.png" width="40%">
+
+```.py
+num = -1
+count = -1
+prev_num = 0
+while num != 0:
+    num = int(input("Input number: "))
+    if num > prev_num:
+        count += 1
+    prev_num = num
+print(count)
+```
+```.py
+count = -1
+prev_num = 0
+for i in range(10000):
+    num = int(input("Input number: "))
+    if num == 0:
+        break
+    else:
+        if num > prev_num:
+            count += 1
+        prev_num = num
+print(count)
+```
+
