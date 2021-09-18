@@ -247,6 +247,7 @@ print(even_count)
 
 # 11. The number of elements that are greater than the previous one
 <img src="images/greater_than_prev_n.png" width="40%">
+
 *Note: there's a mistake in the flowchart, I forgot to replace* ```print(even_count)``` *with* ```print(count)```
 
 ```.py
