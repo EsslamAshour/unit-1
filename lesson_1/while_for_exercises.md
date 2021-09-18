@@ -1,5 +1,4 @@
 # 1. List of squares
-For given integer n print all squares of integers where the square is less than or equal to n, in ascending order.
 <img src="images/list_of_sqrs.png" width="40%">
 
 ```.py
@@ -20,7 +19,6 @@ for i in range(1, n+1):
 ```
 
 # 2. Least divisor
-Given an integer not less than 2 print its smallest integer divisor greater than 1
 <img src="images/least_divisor.png" width="40%">
 
 ```.py
@@ -43,7 +41,6 @@ print(div)
 ```
 
 # 3. The power of two
-For a given integer n, find the greatest integer x where 2**x is less than or equal to n, print the exponent value and the result of the expression 2**x
 <img src="images/power_of_two.png" width="40%">
 ```.py
 n = int(input())
@@ -72,7 +69,6 @@ print(res/2)
 
 
 # 4. Morning jog
-As a future athlete you just started your practice for an upcoming event. Given that on the first day you run x miles, and by the event you must be able to run y miles. Calculate the number of days required for you to finally reach the required distance for the event, if you increases your distance each day by 10% from the previous day.
 <img src="images/morning_jog.png" width="40%">
 
 ```.py
@@ -99,7 +95,6 @@ print(days)
 ```
 
 # 5. The length of a sequence 
-Given a sequence of non-negative integers, where each number is written in a separate line. Determine the length of the sequence, where the sequence ends when the integer is equal to 0. Print the length of the sequence (not counting the integer 0). The numbers following the number 0 should be omitted. 
 <img src="images/seq_length.png" width="40%">
 
 ```.py
@@ -122,7 +117,6 @@ print(length)
 ```
 
 # 6. The sum of a sequence
-Determine the sum of all elements in the sequence, ending with the number 0. 
 <img src="images/seq_sum.png" width="40%">
 
 ```.py
@@ -145,7 +139,6 @@ print(sum)
 ```
 
 # 7. The average of a sequence
-Determine the average of all elements of the sequence ending with the number 0. 
 <img src="images/seq_avg.png" width="40%">
 
 ```.py
