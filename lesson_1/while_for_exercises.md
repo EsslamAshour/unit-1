@@ -42,6 +42,7 @@ print(div)
 
 # 3. The power of two
 <img src="images/power_of_two.png" width="40%">
+
 ```.py
 n = int(input())
 exp = 1
