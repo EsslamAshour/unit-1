@@ -274,4 +274,38 @@ for i in range(10000):
         prev_num = num
 print(count)
 ```
+# 12. The second maximum
+<img src="images/second_max.png" width="40%">
 
+```.py
+```
+```.py
+```
+
+# 13. The number of elements equal to the maximum
+<img src="images/equal_to_max_n.png" width="40%">
+
+```.py
+```
+```.py
+```
+
+# 14. Fibonacci numbers
+<img src="images/fibonacci_nums.png" width="40%">
+
+```.py
+n = int(input("Input n: "))
+f0 = 0
+f1 = 1
+f_next = 0
+count = 0
+while count != n:
+    f_next = f0 + f1
+    f1 = f0
+    f0 = f_next
+    count += 1
+print(f_next)
+```
+```.py
+
+```
