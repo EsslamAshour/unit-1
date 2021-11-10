@@ -1,4 +1,5 @@
 ```.py
+# Given two numbers a and b output True if one of them is 20 or their sum is 20
 def Makes20(a, b):
     if a == 20 or b == 20 or a + b == 20:
         output = True
@@ -6,8 +7,5 @@ def Makes20(a, b):
         output = False
     return output
 ```
-```.py
-Makes20(9, 29) -> True
-Makes20(10, 10) -> True
-Makes20(9, 9) -> False
-```
+
+![image](https://user-images.githubusercontent.com/89051396/141038015-5f55b3e3-7163-401e-a4e0-b7c509ce72ab.png)
